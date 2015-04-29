@@ -1,7 +1,6 @@
 # eatworkart_test
-Website and database developed in Flask .
 
-This repository holds a website developed in the Flask framework with a Jinja templating.
-There is also a database attached to it pulling out a list of books
-
-Last.
+This repository holds all directories and files necessary to run the web base Flask application.
+The site is liked to a database with a login form.
+Once logged in the user can view all books and authors in the db.
+The database was created in sqlite (username: tom, password: eatworkart).
