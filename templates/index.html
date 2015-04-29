@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Web development in Flask!</h2>
+<br>
+<p>Click <a href="/logout">here</a> to logout!</p>	
+<br><br>
+<h3>List of Authors</h3>
+{% for post in authors %}
+<strong>First Name: </strong>{{post.fname}}
+<strong>Last Name: </strong>{{post.lname}}
+<strong>Description: </strong>{{post.description}}
+<br><br>
+{% endfor %}
+{% endblock %}
