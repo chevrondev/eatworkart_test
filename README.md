@@ -1,4 +1,4 @@
-# eatworkart_test
+#bookshop_pyton
 
 This repository holds all directories and files necessary to run the web base Flask application.
 The site is liked to a database with a login form.
